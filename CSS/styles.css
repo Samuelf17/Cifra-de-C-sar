@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    background-color: #042F40;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15vh;
+}
+
+
+#cabecalho{
+    text-align: center;
+    color: #F2F2F2;
+    width: 100vw;
+    margin-top: 3vh;
+}
+
+/*>>> CAIXAS PRINCIPAIS <<<*/
+.principal{
+    border: 2px solid black;
+    margin: 0 auto 0 auto;
+    width: 40vw;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #022840;
+    color: #F2F2F2;
+}
+
+.principal h2{
+    margin-bottom: 3vh;
+}
+.principal p{
+    margin-bottom: 4vh;
+}
+.principal p:last-child{
+    margin-bottom: 1vh;
+}
+/*>>> BOTÕES <<<*/
+input[type=button]{
+    width: 10vw;
+    padding: 5px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #5D91A6;
+    margin-bottom: 4vh;
+}
+input[type=button]:hover{
+    background-color: #8BC3D9;
+    cursor: pointer;
+}
+
+/*>>> PALAVRAS CRIPTOGRAFADAS E DECRIPTOGRAFADAS <<<*/
+#descript, #cript{
+    border: 2px dashed #F2F2F2;
+    padding: 1vh;
+}

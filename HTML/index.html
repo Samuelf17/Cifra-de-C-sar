@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" name="Samuel Lopes">
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <title>Cifra de César</title>
+</head>
+<body>
+    
+    <header id="cabecalho">
+        <h1>Cifra de César</h1>
+    </header>
+
+    <main>
+        <section class="principal">
+            <h2>Criptografar</h2>
+
+                <p>Digite uma palavra ou frase:
+                    <input type="text" id="palavraD">
+                </p>
+                <input type="button" value="Criptografar" onclick="Criptografar()">
+
+            <p id="cript">Palavra: </p>
+        </section>
+
+        <section class="principal">
+            <h2>Descriptografar</h2>
+
+                <p>Digite a palavra ou frase criptografada:
+                    <input type="text" id="palavraC">
+                </p>
+                <input type="button" value="Descriptografar" onclick="Descriptografar()">
+
+            <p id="descript">Palavra: </p>
+        </section>
+    </main>
+
+    <script src="../JavaScript/script.js"></script>
+</body>
+</html>
